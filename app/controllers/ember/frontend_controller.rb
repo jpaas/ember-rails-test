@@ -1,9 +1,5 @@
 module Ember
-  class FrontendController < ActionController::Base
-
-    layout 'ember'
-
-    def index
-    end
+  class FrontendController < ApplicationController
+    layout false
   end
 end
